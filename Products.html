@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <title>Small Business | Products</title>
+</head>
+<body>
+  <style>
+    .max-h-0 {
+      max-height: 0;
+    }
+  </style>
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img src="/logo.png" class="w-10 h-10 text-white p-2 rounded-full" alt="">
+        <span class="ml-3 text-xl">Experian</span>
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="/" class=" cursor-pointer mr-5 hover:text-gray-900">Home</a>
+        <a href="/Products.html" class=" cursor-pointer mr-5 hover:text-gray-900">Products</a>
+        <a href="/Help.html" class=" cursor-pointer mr-5 hover:text-gray-900">Help</a>
+        <a href="/BusinessServices.html" class=" cursor-pointer mr-5 hover:text-gray-900">Business Services</a>
+      </nav>
+      <a href="/sign-in.html"
+        class="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0">Sign
+        In
+      </a>
+    </div>
+  </header>
+  <section class="text-gray-600 body-font relative">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Products sample and Pricing</h1>
+    </div>
+    <div class="container px-5 py-24 mx-auto flex bg-gradient-to-r from-blue-400 via-blue-500 to-pink-500 rounded-lg">
+      <div class="lg:w-0/5 md:w-1/2 md:pr-16 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+        <div class="divide-y-4 divide-pink-500 divide-opacity-100 mb-5">
+          <div></div>
+          <h2 class="text-gray-900 text-3xl py-4 font-medium title-font text-center">Products and Services Introduction
+          </h2>
+          <div></div>
+        </div>
+        <div class="relative mb-4">
+          <p>
+            Experian offers small-business professionals like you an easy and economical way to obtain instant business
+            credit reports online. You can monitor the health of your own business credit report and receive change
+            alerts, or make insightful credit risk decisions about prospective business partners, suppliers and
+            customers.
+            <br>
+            <br>
+            Experian provides access to business credit information on more than 27 million credit-active businesses in
+            the United States securely within seconds. Single reports or multiple report plans can be purchased online
+            by anyone at anytime. The available options provide varying levels of detail — from presenting the basic
+            facts of a business to detailed business credit, payment and public record histories — in an easy-to-read
+            format.
+          </p>
+        </div>
+        <button
+          class="text-white bg-blue-500 transition duration-300 ease-in-out border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Create
+          Account</button>
+      </div>
+      <div
+        class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md mr-16">
+        <p class="leading-relaxed mb-5 text-gray-600 ">Get your business credit report now. It's fast, easy and secure!
+        </p>
+        <div class="relative mb-4">
+          <label for="companyname" class="leading-7 text-sm text-gray-600">Company Name *</label>
+          <input type="text" id="companyname" name="companyname"
+            class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="relative mb-4">
+          <label for="city" class="leading-7 text-sm text-gray-600">City</label>
+          <input type="text" id="city" name="city"
+            class="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        <div class="flex items-center mb-6">
+          <div class="lg:w-1/2 md:w-1/2">
+            <span class="mr-3">State *</span>
+            <div class="relative">
+              <select
+                class="lg:w-full rounded-lg border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500 text-base pl-3 pr-10">
+                <option>Albama</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+              <span
+                class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4" viewBox="0 0 24 24">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+          <div class="lg:w-1/2 md:w-1/2 pl-2">
+            <span class="mr-1">Country *</span>
+            <div class="relative">
+              <select
+                class="lg:w-full rounded-lg border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500 text-base pl-3 pr-10">
+                <option>United States</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+              </select>
+              <span
+                class="absolute right-0 top-0 h-full w-10 text-center text-gray-600 pointer-events-none flex items-center justify-center">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-4 h-4" viewBox="0 0 24 24">
+                  <path d="M6 9l6 6 6-6"></path>
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="text-white bg-blue-500 transition duration-300 ease-in-out border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get
+          Your Report now</button>
+        <p class="text-xs text-gray-500 mt-3">* Required
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-800 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Products sample and Pricing</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Compare our products.</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Business Credit Advantage</h2>
+            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+              <span>$189</span>
+              <span class="text-lg ml-1 font-normal text-gray-500">/yr</span>
+            </h1>
+            <p class="flex items-center text-gray-600 mb-2">
+            <div class="text-center text-2xl mb-5">
+              Subscription for 1 business
+            </div>
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Credit Score (Intelliscore PlusSM)
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Financial Stability Risk Rating
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Fictitious Business Names
+            </p>
+            <button
+              class="transition duration-300 ease-in-out flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded-lg">Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Business Credit Score Pro</h2>
+            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+              <span>$1,495</span>
+              <span class="text-lg ml-1 font-normal text-gray-500">/yr</span>
+            </h1>
+            <p class="flex items-center text-gray-600 mb-2">
+            <div class="text-center text-2xl mb-5">
+              30 businesses per month
+            </div>
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Credit Score (Intelliscore PlusSM)
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Financial Stability Risk Rating
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Fictitious Business Name
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Facts
+            </p>
+            <button
+              class="transition duration-300 ease-in-out flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded-lg">Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">ProfilePlus Report</h2>
+            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+              <span>$49.95</span>
+            </h1>
+            </h1>
+            <p class="flex items-center text-gray-600 mb-2">
+            <div class="text-center text-2xl mb-5">
+              Pay per report for 1 business
+            </div>
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Credit Score (Intelliscore PlusSM)
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Financial Stability Risk Rating
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Fictitious Business Name
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Facts
+            </p>
+            <button
+              class="transition duration-300 ease-in-out flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded-lg">Subscribe
+            </button>
+          </div>
+        </div>
+        <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+          <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+            <h2 class="text-sm tracking-widest title-font mb-1 font-medium">CreditScore Report</h2>
+            <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+              <span>$39.95</span>
+            </h1>
+            <p class="flex items-center text-gray-600 mb-2">
+            <div class="text-center text-2xl mb-5">
+              Pay per report for 1 business
+            </div>
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Credit Score (Intelliscore PlusSM)
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Financial Stability Risk Rating
+            </p>
+            <p class="flex items-center text-gray-600 mb-2">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span> Fictitious Business Name
+            </p>
+            <p class="flex items-center text-gray-600 mb-6">
+              <span
+                class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-green-400 text-white rounded-full flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                  class="w-3 h-3" viewBox="0 0 24 24">
+                  <path d="M20 6L9 17l-5-5"></path>
+                </svg>
+              </span>Business Facts
+            </p>
+            <button
+              class="transition duration-300 ease-in-out flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded-lg">Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Other products</h1>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="xl:w-2/4 lg:w-2/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">International Business Credit Reports
+            for only $59.95 each.</h2>
+          <p class="leading-relaxed text-base mb-4"> Discount plans available.</p>
+          <a href="#" class="text-blue-500 inline-flex items-center border border-blue-500 p-1 rounded-lg"> View sample
+          </a>
+          <a href="#" class="text-blue-500 inline-flex items-center border border-blue-500 p-1 rounded-lg"> Buy Now
+          </a>
+        </div>
+        <div class="xl:w-2/4 lg:w-2/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Business Valuation reports $99 each.
+          </h2>
+          <a href="#" class="leading-relaxed text-base mb-4"> Find the financial value of your business.</a>
+          <a href="#" class="text-blue-500 inline-flex items-center border border-blue-500 p-1 rounded-lg"> View sample
+          </a>
+          <a href="#" class="text-blue-500 inline-flex items-center border border-blue-500 p-1 rounded-lg"> Buy Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-left w-full mb-12">
+        <h1 class="text-lg font-medium title-font mb-4 text-red-500">Note: Elements in actual reports and samples may
+          not include all of the elements displayed above.</h1>
+        <ol>
+          <li>
+            Experian will deliver its most comprehensive report under this plan.
+          </li>
+          <li class="ml-4">
+            IMPORTANT NOTE: To monitor multiple locations, you'll need to purchase multiple subscription plans.
+          </li>
+          <li>
+            2. BizVerify reports View sample are available if neither the ProfilePlus nor CreditScore reports are
+            available. These reports retail for $10. each.
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <div class="bg-gray-100 h-screen w-screen flex justify-center">
+    <div class="mr-8">
+      <h1 class="font-medium max-w-xl mx-auto pt-10 pb-4 ml-5">Learn more about our products</h1>
+      <div class="bg-white max-w-6xl mx-auto border border-gray-200" x-data="{selected:null}">
+        <ul class="shadow-box">
+          <li class="relative border-b border-gray-200">
+            <button type="button" class="w-full px-8 py-6 text-left"
+              @click="selected !== 1 ? selected = 1 : selected = null">
+              <div class="flex items-center justify-between">
+                <span>
+                  Business Credit Advantage subscription plan </span>
+                <span class="ico-plus"></span>
+              </div>
+            </button>
+            <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container1"
+              x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+              <div class="p-6">
+                <p>Business Credit Advantage gives you unlimited access to an individual company report. Includes our most complete report on this business. It also tracks changes to the subscribed company business credit file and displays three-month trend information in your Business Credit Dashboard (under 'My reports').</p>
+                <br>
+                <a href="#">View sample Business Credit Advantage Report</a>
+                <br>
+                <p class="font-medium mb-4 mt-4">Business credit monitoring</p>
+                <br>
+                <p>Business Credit Advantage continuously monitors the company report and alerts you via email on key changes posted to your monitored business credit report. It also notifies you if anyone makes an inquiry on the business credit report - whether it is a bank reviewing a credit line or a supplier checking a recent payment history. With Business Credit Advantage you will always be in the know about what is affecting your business or the business you are monitoring.</p>
+                
+                <p>For specific questions about our Business Credit Advantage plan, <span><a href="#" class="text-blue-500"> please read our Business Credit Advantage FAQ.</a> </span></p>
+                <br>
+                <p class="font-medium mb-4 mt-4">Business identity monitoring</p>
+                <p>Business Credit Advantage also includes access to CyberAgent®, our priority monitoring technology, which proactively detects stolen business identifiable information and compromised confidential data online. CyberAgent is the only identity monitoring solution designed for proactive cyber detection on an international level - breaking language barriers and detecting identity theft across the globe. At any point in time, our CyberAgent technology is monitoring thousands of websites and millions of data points, alerting you if we find your business information in a compromised position online. This information is being gathered in real-time, giving you the opportunity to react quickly and take the necessary steps to protect your business.</p>
+                <br>
+                <p>For specific questions about our Business Credit Advantage plan, <span><a href="#" class="text-blue-500"> please read our Business Credit Advantage FAQ.</a> </span></p>
+                </div>
+            </div>
+          </li>
+          <li class="relative border-b border-gray-200">
+            <button type="button" class="w-full px-8 py-6 text-left"
+              @click="selected !== 2 ? selected = 2 : selected = null">
+              <div class="flex items-center justify-between">
+                <span>
+                  I'd like to run automated tests with reCAPTCHA. What should I do? </span>
+                <span class="ico-plus"></span>
+              </div>
+            </button>
+            <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container2"
+              x-bind:style="selected == 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+              <div class="p-6">
+                <p>For reCAPTCHA v3, create a separate key for testing environments. Scores may not be accurate as
+                  reCAPTCHA v3 relies on seeing real traffic.</p>
+                <p>For reCAPTCHA v2, use the following test keys. You will always get No CAPTCHA and all verification
+                  requests will pass.</p>
+              </div>
+            </div>
+          </li>
+          <li class="relative border-b border-gray-200">
+            <button type="button" class="w-full px-8 py-6 text-left"
+              @click="selected !== 3 ? selected = 3 : selected = null">
+              <div class="flex items-center justify-between">
+                <span>
+                  Can I run reCAPTCHA v2 and v3 on the same page? </span>
+                <span class="ico-plus"></span>
+              </div>
+            </button>
+            <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container3"
+              x-bind:style="selected == 3 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''">
+              <div class="p-6">
+                <p>To do this, load the v3 site key as documented, and then explicitly render v2 using
+                  grecaptcha.render.</p>
+                <p>You are allowed to hide the badge as long as you include the reCAPTCHA branding visibly in the user
+                  flow. Please include the following text:</p>
+                <p>Yes, please use "www.recaptcha.net" in your code in circumstances when "www.google.com" is not
+                  accessible.</p>
+                <ul>
+                  <li>First, replace &lt;script src="https://www.google.com/recaptcha/api.js" async
+                    defer&gt;&lt;/script&gt; with &lt;script src="https://www.recaptcha.net/recaptcha/api.js" async
+                    defer&gt;&lt;/script&gt;</li>
+                  <li>After that, apply the same to everywhere else that uses "www.google.com/recaptcha/" on your site.
+                  </li>
+                </ul>
+                <p>After that, apply the same to everywhere else that uses "www.google.com/recaptcha/" on your site.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="text-gray-600 body-font">
+    <div class="bg-gray-100">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <img src="/logo.png" class="w-10 h-10 text-white p-2 rounded-full" 1 alt="">
+          <span class="ml-3 text-xl">Small business</span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2020 Tailblocks —
+          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1"
+            target="_blank">@knyttneve</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script src="//unpkg.com/alpinejs" defer></script>
+</body>
+</html>
